@@ -1,0 +1,11 @@
+dataset:
+    data:
+        train: ./dataset/train_11.npy
+        test: ./dataset/test_11.npy
+    label:
+        train: ./dataset/train_label_11.npy
+model:
+    path: ./models
+defaults:
+    num_epoch: 20
+    learning_rate: 0.0001
